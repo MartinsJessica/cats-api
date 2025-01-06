@@ -123,7 +123,6 @@ npm run start:dev
 
 # Production mode
 npm run start:prod
-Claro, aqui estão as instruções em inglês para adicionar ao seu 
 
 README.md
 
