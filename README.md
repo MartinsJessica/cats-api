@@ -71,6 +71,19 @@ $ mau deploy
 
 With Mau, you can deploy your application in just a few clicks, allowing you to focus on building features rather than managing infrastructure.
 
+
+The API access key was transformed into an environment variable in NestJS.
+## Configuration
+
+To configure the API access key, follow these steps:
+
+1. Create an account and obtain an API key from [The Cat API](https://thecatapi.com/).
+2. Create a `.env` file at the root of the project with the following content:
+
+```properties
+CAT_API_KEY=your_api_key_here
+```
+
 ## Resources
 
 Check out a few resources that may come in handy when working with NestJS:
@@ -97,3 +110,64 @@ Nest is an MIT-licensed open source project. It can grow thanks to the sponsors 
 ## License
 
 Nest is [MIT licensed](https://github.com/nestjs/nest/blob/master/LICENSE).
+
+Installation
+1. Clone the repository:
+git clone https://github.com/your-username/your-repository.git
+cd your-repository
+2. Install the dependencies:
+npm install
+3. Start the server:
+# Development mode
+npm run start:dev
+
+# Production mode
+npm run start:prod
+Claro, aqui estão as instruções em inglês para adicionar ao seu 
+
+README.md
+
+:
+
+```markdown
+## Configuration
+
+To configure the API access key, follow these steps:
+
+1. Create an account and obtain an API key from [The Cat API](https://thecatapi.com/).
+2. Create a `.env` file at the root of the project with the following content:
+
+```properties
+CAT_API_KEY=your_api_key_here
+```
+
+Replace `your_api_key_here` with your actual API key.
+
+## Installation
+
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/your-username/your-repository.git
+   cd your-repository
+   ```
+
+2. Install the dependencies:
+   ```bash
+   npm install
+   ```
+
+3. Configure the environment variable as described in the Configuration section.
+
+4. Start the server:
+   ```bash
+   # Development mode
+   npm run start:dev
+
+   # Production mode
+   npm run start:prod
+   ```
+
+## Usage
+
+To access the cats API, make a GET request to `http://localhost:3000/cats?limit=5`, where `limit` is the number of cat images you want to retrieve.
+
